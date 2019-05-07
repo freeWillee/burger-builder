@@ -6,8 +6,10 @@ import classes from './SideDrawer.module.css'
 const sideDrawer = (props) => {
     // ... add CSS animation here.. conditional logic.
     return (
-        <div className={classes.Sidedrawer}>
-            <Logo />
+        <div className={classes.SideDrawer}>
+            <div className={classes.Logo}>
+                <Logo />
+            </div>
             <nav>
                 <NavigationItems />
             </nav>
